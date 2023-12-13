@@ -18,13 +18,13 @@ function play() {
 
     //in base alla difficoltà assegno un numero di celle e do una classe che su css indicherà la larghezza della cella
     if (select.value === 'easy') {
-        cellsNumber = 100;
+        cellsNumber = 49;
         difficultyClass = 'easy';
     } else if (select.value === 'medium') {
         cellsNumber = 81;
         difficultyClass = 'medium';
     } else if (select.value === 'hard') {
-        cellsNumber = 49;
+        cellsNumber = 100;
         difficultyClass = 'hard';
     }
 

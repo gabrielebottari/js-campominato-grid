@@ -17,8 +17,8 @@ html {
 }
 
 .cell {
-    height: 100px;
-    line-height: 100px;
+    height: 80px;
+    line-height: 80px;
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
@@ -32,7 +32,7 @@ html {
     color: #CFF4FC;
 }
 
-.cell.easy {
+.cell.hard {
     width: 10%;
 }
 
@@ -40,6 +40,6 @@ html {
     width: calc(100% / 9);
 }
 
-.cell.hard {
+.cell.easy {
     width: calc(100% / 7);
 }
