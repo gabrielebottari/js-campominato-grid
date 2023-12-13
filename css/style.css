@@ -10,3 +10,28 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#grid .cell {
+    width: 10%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 1px solid green;
+    background-color: goldenrod;
+    color: green;
+    cursor: pointer;
+}
+
+#grid .cell.active {
+    background-color: green;
+    border: 1px solid goldenrod;
+    color: goldenrod;
+}
