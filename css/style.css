@@ -24,14 +24,12 @@ html {
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
-    border: 1px solid green;
-    background-color: goldenrod;
-    color: green;
     cursor: pointer;
+    border: 1px solid #0B5ED7;
 }
 
 #grid .cell.active {
-    background-color: green;
-    border: 1px solid goldenrod;
-    color: goldenrod;
+    background-color: #0B5ED7;
+    border: 1px solid #CFF4FC;
+    color: #CFF4FC;
 }
